@@ -1,4 +1,2 @@
 #!/bin/bash
 gcc -S $CFILE -o ./${CFILE//'.c'/'.s'}
- 2021 GitHub, Inc.
-
