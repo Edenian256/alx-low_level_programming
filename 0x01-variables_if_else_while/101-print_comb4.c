@@ -20,7 +20,8 @@ putchar(j);
 putchar(y);
 if (i != 55 || j != 56 || y != 57)
 {
-putchar(',');						putchar(' ');
+putchar(',');
+putchar(' ');
 }
 y++;
 }
