@@ -8,14 +8,14 @@
 
 int main(void)
 {
-int i = 48, j = 49;
-while (i < 58)
+int i = 38, j = 39;
+while (i < 48)
 {
-while (j < 58)
+while (j < 48)
 {
 putchar(i);
 putchar(j);
-if (i != 56 || j != 57)
+if (i != 46 || j != 47)
 {
 putchar(',');
 putchar(' ');
