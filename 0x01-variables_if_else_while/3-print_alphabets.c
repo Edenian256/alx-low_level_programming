@@ -9,13 +9,17 @@
 
 int main(void)
 {
-for (char n = a; a <= z, n++)
+char n = 'a';
+while (n <= 'z')
 {
 putchar(n);
+n++;
 }
-for (char m = A; A <= Z, m++)
+n = 'A';
+while (n <= 'Z')
 {
-putchar(m);
+putchar(n);
+n++;
 }
 putchar('\n');
 return (0);
