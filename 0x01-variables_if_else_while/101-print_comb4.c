@@ -8,22 +8,27 @@
 
 int main(void)
 {
-int i = 48, j = 49;
-whiile (i < 58)
+int i = 48, j = 49, y = 50;
+while (i < 58)
 {
 while (j < 58)
 {
+while (y < 58)
+{
 putchar(i);
 putchar(j);
-if (i != 56 || j != 57)
+putchar(y);
+if (i != 55 || j != 56 || y != 57)
 {
-putchar(',');
-putchar(' ');
+putchar(',');						putchar(' ');
+}
+y++;
 }
 j++;
+y = j + 1;
 }
 i++;
-j = i + 1;
+j = i;
 }
 putchar('\n');
 return (0);
