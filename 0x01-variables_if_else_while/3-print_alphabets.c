@@ -1,25 +1,21 @@
 #include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+include <time.h>
+include <stdio.h>
 
 /**
- * main - Entry point.
- * Return: 0 (success).
- */
+* main - Entry point.
+* Return: 0 (success).
+*/
 
 int main(void)
 {
-char n = 'a';
-while (n <= 'z')
+for (char n = a; a <= z, n++)
 {
 putchar(n);
-n++;
 }
-n = 'A'
-while (n <= 'Z')
+for (char m = A; A <= Z, m++)
 {
-putchar(n);
-n++;
+putchar(m);
 }
 putchar('\n');
 return (0);
